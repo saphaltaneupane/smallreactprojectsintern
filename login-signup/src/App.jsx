@@ -6,15 +6,14 @@ const App = () => {
       className="flex justify-center items-center min-h-screen bg-cover bg-center"
       style={{ backgroundImage: "url('/login.avif')" }}
     >
-      {/* Card */}
+  
       <div className="w-96 p-8 bg-white/80 rounded-2xl shadow-2xl backdrop-blur-md">
-        
-        {/* Title */}
+   
         <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
           Login with
         </h2>
 
-        {/* Social Buttons */}
+      
         <div className="flex justify-between gap-4 mb-6">
           <button className="flex-1 flex items-center justify-center gap-2 px-4 py-3 bg-white rounded-lg shadow hover:shadow-lg hover:scale-105 transition-transform">
             <img src="/google.jpg" alt="Google" className="w-6 h-6" />
@@ -26,14 +25,14 @@ const App = () => {
           </button>
         </div>
 
-        {/* Divider */}
+
         <div className="relative flex items-center mb-6">
           <div className="flex-grow border-t border-gray-300"></div>
           <span className="px-3 text-gray-500 bg-white">or</span>
           <div className="flex-grow border-t border-gray-300"></div>
         </div>
 
-        {/* Form */}
+ 
         <form className="flex flex-col gap-4">
           <input
             type="email"
@@ -61,7 +60,7 @@ const App = () => {
           </button>
         </form>
 
-        {/* Signup link */}
+       
         <p className="mt-4 text-gray-800 text-center">
           Don't have an account?{" "}
           <a href="#" className="text-purple-600 hover:underline">
